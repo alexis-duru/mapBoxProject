@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+cursor {
+  display: none;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  font-family: "helvetica";
+  font-weight: 300;
+}
+
+.col-md-6 {
+  overflow: scroll;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 30vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.153);
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+.row .card {
+  transition: 0.3s ease-in-out;
+}
+.row .card:hover {
+  background: rgba(0, 0, 0, 0.255);
+}
+.row .card .col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row .card .col-md-3 img {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.row .card .col-md-9 {
+  width: 60%;
+}
+.row .card .col-md-9 p {
+  width: 80%;
+  font-size: 14px;
+}
+
+.col-md-1 {
+  width: 8.3333333333%;
+}
+
+.col-md-2 {
+  width: 16.6666666667%;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+
+.col-md-4 {
+  width: 33.3333333333%;
+}
+
+.col-md-5 {
+  width: 41.6666666667%;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+.col-md-7 {
+  width: 58.3333333333%;
+}
+
+.col-md-8 {
+  width: 66.6666666667%;
+}
+
+.col-md-9 {
+  width: 75%;
+}
+
+.col-md-10 {
+  width: 83.3333333333%;
+}
+
+.col-md-11 {
+  width: 91.6666666667%;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+
+#cursor {
+  position: absolute;
+  left: 50%;
+  height: 300px;
+  width: 5px;
+  background-color: #000;
+  z-index: 10;
+}
+
+/*# sourceMappingURL=style.css.map */
